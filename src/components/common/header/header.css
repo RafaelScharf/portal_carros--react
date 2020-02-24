@@ -1,0 +1,8 @@
+header.header div {
+  background-color: var(--bg-default);
+  padding: 0px 15px;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-wrap: row wrap;
+  justify-content: space-between;
+}

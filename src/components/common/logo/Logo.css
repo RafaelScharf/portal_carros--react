@@ -1,0 +1,7 @@
+aside .logo {
+}
+
+aside .logo img {
+  padding: 15px;
+  width: var(--logo-width);
+}
