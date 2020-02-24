@@ -7,10 +7,12 @@ import Search from "../search/Search";
 
 export default props => (
   <header className="header d-none d-sm-flex flex-column">
-    <div>
+    <div className="content">
       <Logo />
-      <Nav />
-      <Contacts />
+      <div className="container">
+        <Nav />
+        <Contacts />
+      </div>
     </div>
   </header>
 );
