@@ -21,3 +21,9 @@ nav.contacs ul li {
 .contacs a:hover {
   transform: scale(1.2);
 }
+
+@media screen and (max-width: 599px) {
+  .contacs {
+    display: none;
+  }
+}

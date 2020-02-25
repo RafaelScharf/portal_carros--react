@@ -7,7 +7,32 @@ header.header div {
   justify-content: space-between;
 }
 
-header div.container {
+header div.header-rigth {
   box-shadow: none;
   background-color: none;
+}
+
+.header-rigth {
+  padding-right: 3rem;
+  width: 100%;
+  box-shadow: none;
+  background-color: none;
+}
+
+@media screen and (max-width: 599px) {
+  header.header div {
+    display: block;
+    padding-bottom: 0.5rem;
+  }
+
+  header.header div ul li a {
+    width: 100%;
+    display: block;
+    box-shadow: 0px 0px 1px #0004;
+    text-align: center;
+  }
+
+  ul {
+    padding-right: 2rem;
+  }
 }

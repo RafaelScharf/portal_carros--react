@@ -4,6 +4,7 @@
   --logo-width: 6.25rem;
   --logo-heigth: 3.75rem;
   --header-heigth: 6.25rem;
+  --header-heigth-sm: auto;
   --footer-heigth: 6.25rem;
   --shadow: 0 2px 23px 0 rgb(0, 0, 0, 0.2), 0 2px 49px 0 rgb(0, 0, 0, 0.5);
 }
@@ -28,6 +29,26 @@ body {
     "content"
     "footer";
   height: 100vh;
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+
+@media screen and (max-width: 599px) {
+  .app {
+    margin: auto;
+    display: grid;
+    grid-template-rows:
+      var(--header-heigth-sm)
+      1fr
+      var(--footer-heigth);
+    grid-template-areas:
+      "header"
+      "content"
+      "footer";
+    height: 100vh;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
 }
 
 aside.logo {
