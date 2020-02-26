@@ -21,6 +21,7 @@ header div.header-rigth {
 
 @media screen and (max-width: 599px) {
   header.header div {
+    box-shadow: none;
     display: block;
     padding-bottom: 0.5rem;
   }
@@ -28,7 +29,6 @@ header div.header-rigth {
   header.header div ul li a {
     width: 100%;
     display: block;
-    box-shadow: 0px 0px 1px #0004;
     text-align: center;
   }
 
